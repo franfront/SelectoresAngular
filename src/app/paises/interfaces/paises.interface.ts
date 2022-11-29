@@ -1,7 +1,6 @@
 export interface PaisSmall {
   name: Name;
   cca3: string;
-  
 }
 
 export interface Name {
@@ -10,9 +9,7 @@ export interface Name {
 }
 
 export interface Pais {
-    name:         Name;
-    cca3:         string;
-   
-    borders:      string[];
-   
+  name: Name;
+  cca3: string;
+  borders: string[];
 }
